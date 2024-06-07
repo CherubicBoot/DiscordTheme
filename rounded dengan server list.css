@@ -1,0 +1,663 @@
+  /* Rounded dengan server list */
+:root {
+    --radius: 10px; /* 16px */
+  }
+  /* Chat UI */
+  .tutorialContainer_b06ae6 {
+    margin-top: 6px;
+  }
+  .resizeHandle_cc9d34 {
+    width: 0px;
+  }
+  .container_bd15da,
+  .container-36u7Lw,
+  .chat__52833,
+  .pageWrapper_c182d3,
+  .container__2b28c,
+  .main_e0b3ac,
+  .applicationStore__444b9,
+  .containerSidenav_c2b517,
+  .shop_b31ed2,
+  .container_cfe93d,
+  .chat__52833,
+  /* CHAT MARGIN RAY */
+  .container__694a1 {
+    border-radius: var(--radius);
+    margin-top: 1px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 5px;
+  }
+  .sidebar_e031be,
+  /* SIDEBAR MARGIN RAY */
+  .container__694a1 {
+    border-radius: var(--radius) !important; /* Fix sidebar not rounded on windows platform */
+    margin-top: 1px;
+    margin-bottom: 10px;
+    margin-right: 0px !important;
+    margin-left: 5px;
+  }
+  /* SERVER LIST MARGIN RAY */
+.wrapper__216eb {
+    border-radius: var(--radius);
+    margin-top: 1px; /*  */
+    margin-bottom: 10px; /*   margin-bottom: 10px */
+    margin-right: 1px; /*   margin-right: 5px */
+    margin-left: 5px; /*   margin-left: 10px */
+    background-color: var(--background-secondary);
+  }
+  .channelChatWrapper__43f43 {
+    border-radius: var(--radius);
+    margin-top: -10px;
+    margin-bottom: -10px;
+    margin-right: -5px;
+    margin-left: 5px;
+  }
+  .container__0bd59 {
+    border-radius: var(--radius);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 10px;
+  }
+  .answerInner_b97752 {
+    border-radius: var(--radius);
+    margin-right: 5px;
+    margin-left: 10px;
+  }
+  .votePercentageBar_ba9103 {
+    border-radius: var(--radius);
+  }
+  
+  /* User Panel (Optional) */
+  .container__7e23c,
+  .privateChannels__9b518 {
+    border-radius: var(--radius);
+    margin-bottom: 5px;
+  }
+  .sidebar_e031be {
+    background: unset;
+  }
+  
+  /* Text Area Reply Fix */
+  .theme-dark.custom-theme-background .channelTextArea_c2094b {
+    background: var(--bg-overlay-1, var(--background-secondary)) !important;
+  }
+  .theme-light.custom-theme-background .channelTextArea_c2094b {
+    background: var(--bg-overlay-2, var(--background-secondary)) !important;
+  }
+  .channelTextArea_c2094b {
+    background: var(--background-secondary) !important;
+  }
+  
+  /* BetterDiscord */
+  .bd-select,
+  .bd-addon-list .bd-addon-card,
+  .bd-search-wrapper,
+  .bd-select-transparent,
+  .bd-notice,
+  .bd-notice:first-child,
+  .bd-addon-error,
+  .bd-tab-item,
+  .bd-number-input,
+  .bd-changelog-modal video,
+  .bd-changelog-modal img,
+  .monaco-editor .overflow-guard,
+  .qwert-toast,
+  .toast-g4bfgI,
+  .card-x5zW6z,
+  .coverBadge-I41ZIY {
+    border-radius: var(--radius);
+  }
+  .bd-notice {
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+  }
+  #bd-editor-controls {
+    border-radius: var(--radius) var(--radius) 0px 0px;
+  }
+  .monaco-editor {
+    border-radius: 0px 0px var(--radius) var(--radius);
+  }
+  #floating-editor-window {
+    border-radius: var(--radius);
+  }
+  .floating-window #bd-editor-controls,
+  .floating-window .monaco-editor {
+    border-radius: 0px;
+  }
+  .content-Pph8t6:not(.hidden__7c832) {
+    margin-left: 5px;
+  }
+  .platform-osx .content-Pph8t6:not(.hidden__7c832) {
+    margin-top: 10px;
+  }
+  .content-Pph8t6.closed-j55_T- {
+    display: none;
+  }
+  
+  /* Vencord */
+  [style="width: 72px; display: flex;"]:has(.wrapper__216eb.guilds__2b93a) {
+    margin-left: -5px;
+    margin-right: 15px;
+  }
+  .shiki-btn:last-child {
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  .vc-error-card,
+  .shc-lock-screen-allowed-users-and-roles-container,
+  .scroller_ef926b,
+  .memberListItem_a082b9,
+  .vc-permviewer-perms-list-item,
+  .shiki-root,
+  .markup_a7e664 pre,
+  .shiki-btn:last-child {
+    border-radius: var(--radius);
+  }
+  .vc-addon-card,
+  .vc-notification-root,
+  .vc-st-modal-content input {
+    border-radius: var(--radius) !important;
+  }
+  #vc-spotify-player,
+  .vc-gp-banner {
+    border-radius: var(--radius) var(--radius) 0px 0px;
+  }
+  [id^="folder-items-"] {
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+  [style="width: 71.9943px; display: flex;"] {
+    padding-right: 15px;
+    margin-left: -5px;
+  }
+  .vc-bf-folder-sidebar [class*="expandedFolderBackground-"] {
+    background: unset !important;
+  }
+  .platform-osx .vc-bf-folder-sidebar {
+    margin-top: -22px;
+  }
+  
+  /* Replugged */
+  .replugged-addon-card,
+  .replugged-updater-item,
+  #replugged-quickcss-wrapper .cm-editor {
+    border-radius: var(--radius);
+  }
+  #replugged-quickcss-wrapper .cm-gutters {
+    border-radius: var(--radius) 0px 0px var(--radius);
+  }
+  
+  /* Create Server */
+  .container-x8Y1ix {
+    border-radius: var(--radius);
+  }
+  
+  /* SoundBoard */
+  .picker__6dca7,
+  .soundButton__845c7 {
+    border-radius: var(--radius);
+  }
+  
+  /* Activities */
+  .poster-iN2kh_,
+  .activityItem-1Z9CTr,
+  .activityTag-3C3YK5 {
+    border-radius: var(--radius);
+  }
+  
+  /* Discover */
+  .searchBox__56feb,
+  .card__86773,
+  .container_c83a4f,
+  .headerImage__9a34a,
+  .headerImage-2D5D-v,
+  .categoryPill-1zjNrr,
+  .splashContainer_c07592,
+  .popout_a6e77f,
+  .option_eb83e4 {
+    border-radius: var(--radius);
+  }
+  .sidebarContainer__6f8e5 {
+    border-radius: var(--radius) 0px 0px var(--radius);
+  }
+  
+  /* Invite */
+  .contentWrapper_f9bc93 {
+    border-radius: var(--radius) 0px 0px var(--radius);
+  }
+  .inviteSplash__0cd5c {
+    border-radius: 0px var(--radius) var(--radius) 0px;
+  }
+  
+  /* App Directory */
+  .search__24107,
+  .category_c3da1d,
+  .card__834d4,
+  .container_bdd168,
+  .headerBanner__7b8a3,
+  .category__1ebd5,
+  .list_b1e6a9,
+  .commandName__7c054,
+  .category_a343a6,
+  .clickable__019e3,
+  .card__2ebbc {
+    border-radius: var(--radius);
+  }
+  .splashImage__1b6d7 {
+    border-radius: var(--radius) var(--radius) 0px 0px;
+  }
+  
+  /* Emoji */
+  .contentWrapper_e0bb2c,
+  .container_ec5ce2,
+  .badgeLabel__9518c,
+  .container__33507,
+  .gif__2aa16,
+  .categoryFade_ed9ec1,
+  .categoryFadeBlurple_ffb0c5,
+  .contentWrapper_eab878,
+  .container-3a5mk-,
+  .container_f8ef5d,
+  .reactors__0f305,
+  .reactionDefault_de3361,
+  .reactionSelected__16345,
+  .result_e1fc74:after,
+  .popoutContainer__66068,
+  .result_e1fc74,
+  .reactionTooltip__20d0b {
+    border-radius: var(--radius);
+  }
+  .scroller__9a4f3 {
+    border-radius: var(--radius) 0px 0px var(--radius);
+  }
+  .header_e5d8b2 {
+    border-radius: var(--radius) var(--radius) 0px 0px;
+  }
+  .emojiPicker__5e2e2 {
+    border-radius: 0px 0px var(--radius) var(--radius);
+  }
+  
+  /* Search */
+  .searchBar__5a20a,
+  .searchResult__00093 {
+    border-radius: var(--radius);
+  }
+  .searchFilter_dbda51 {
+    border-radius: var(--radius) 0px 0px var(--radius);
+  }
+  .searchHeader__4d70e {
+    border-radius: 0px 0px var(--radius) var(--radius);
+  }
+  
+  /* Rounded Msg */
+  .reaction_ef7e09,
+  .reaction__4a43f,
+  .mention,
+  .wrapper__4ef2e,
+  .wrapper__8a5dd,
+  .wrapper__53064,
+  .wrapper__4e6b6,
+  .hoverButtonGroup__304b2,
+  .burstGlow__76bd0,
+  .hljs,
+  .attachment__06ca3.newMosaicStyle_b4aa24,
+  .languageSelector__4840c,
+  .wrapperAudio__178e9.newMosaicStyle__78072,
+  .attachment__06ca3,
+  .executedCommand__4fb1a .appLauncherOnboardingCommandName_bf880c {
+    border-radius: var(--radius);
+  }
+  .newMosaicStyle_ed53d8 .footer__90194,
+  .footer__90194,
+  .footerContainer_b2e9f6,
+  .videoControls__7bc92 {
+    border-radius: 0px 0px var(--radius) var(--radius);
+  }
+  .newMosaicStyle_ed53d8 .textContainer__65f57,
+  .modalTextContainer_ce11a8,
+  .withFooter__04ba2 {
+    border-radius: var(--radius) var(--radius) 0px 0px;
+  }
+  .audioControls_da7066 {
+    border-radius: var(--radius) !important;
+  }
+  
+  /* Setting */
+  .app_de4237 button,
+  .card__4dc22:not(.outline__16075),
+  .connection__6dbd8,
+  .connectContainer_e331e3,
+  .valuePropContainer-NqrwuR,
+  .cardIcon__45b55:after,
+  .cardIcon__45b55:before,
+  .background__3b760,
+  .notDetected__14b92,
+  .nowPlaying_a3b60b,
+  .membershipDialog-2wAdpQ,
+  .swatch__96672,
+  .saturation__918ba > div,
+  .saturation__918ba > div > div,
+  .radioBar__70669.radioPositionLeft_c8ce26,
+  .upsellFooter-1H_OCF,
+  .card__4dc22,
+  .cardWrapper_bc8d2a,
+  .paymentPane__541d7,
+  .payment_f27ac6,
+  .expandedInfo_efc786,
+  .inner__51a43,
+  .container_d5dec4,
+  .container_db1b74,
+  .container__5a2c3,
+  .row__9455d,
+  .box__6431e {
+    border-radius: var(--radius);
+  }
+  .suggestedColor__713b5 {
+    border-radius: 10px;
+  }
+  .animatedContainer__0e828,
+  .selectPositionTop__9fb7a.open_cd27aa {
+    border-radius: 0px 0px var(--radius) var(--radius);
+  }
+  .connectionHeader__2b82f {
+    border-radius: var(--radius) var(--radius) 0px 0px;
+  }
+  
+  /* Rounded Embed Msg */
+  .embed_cc6dae,
+  .imageWrapper__178ee {
+    border-radius: var(--radius);
+  }
+  
+  /* Rounded Menu */
+  .header__77c95,
+  .panels__58331,
+  .container_debb33 {
+    border-radius: var(--radius);
+  }
+  
+  /* Home Page */
+  .interactive__0786a,
+  .topPill__63ad4 .item__48dda,
+  .container__23c08,
+  .addFriendInputWrapper__2b30b,
+  .quickswitcher_b5bb0a,
+  .input__2a648,
+  .result__25f11,
+  .searchBar__621ec .searchBarComponent__8f95f,
+  .peopleListItem_dab480.active__6b8ff,
+  .peopleListItem_dab480:hover,
+  .list-3-WAYB,
+  .itemCard_b64118,
+  .section__253ec:only-child,
+  .twitchSectionPreview_faf728,
+  .withTagAsButton_e22174,
+  .withTagless__058f8,
+  .jumpButton__309d6,
+  .authBox__6f336,
+  .content_b28aab,
+  .friend__05c43,
+  .tag__69d9d,
+  .contentWrapper_f9bc93:only-child,
+  .px__7f04f.botTag__4211a,
+  .popout_a6e77f.popoutPositionTop__762b9,
+  .selectPositionTop__9fb7a.open_cd27aa,
+  .input_f27786,
+  .tooltip__7b090,
+  .reactionTooltip-3IOBwg,
+  .root__46d4f,
+  .toolbar__894c6,
+  .option__91497,
+  .body__616e6 {
+    border-radius: var(--radius);
+  }
+  .avatarWrapper__500a6 {
+    border-radius: var(--radius) !important;
+  }
+  .card-14SgW5 {
+    border-radius: var(--radius) var(--radius) 0px 0px;
+  }
+  .navRow-dG-XX8,
+  .root-2x5M19 > :last-child {
+    border-radius: 0px 0px var(--radius) var(--radius);
+  }
+  
+  /* Profile */
+  .profileBadges__1f2ab,
+  .badgeList__76720,
+  .badgeList-2aoHPw {
+    background-color: transparent;
+  }
+  .role_d81130,
+  .button_c15687,
+  .overlayBackground__345c9,
+  .messageInputContainer_a93946,
+  .listRow__50619,
+  .accountProfileCard__744d8,
+  .background__4e802,
+  .userPopoutInner_ac0960:before,
+  .userProfileOuter__35e59,
+  .userProfileModalInner__84e47:before,
+  .connectedAccountContainer__5972d {
+    border-radius: var(--radius);
+  }
+  .roundedBanner__16aa6 {
+    border-radius: var(--radius) var(--radius) 0px 0px;
+  }
+  .content_b28aab.body__1451f.thin_b1c063.scrollerBase_f742b2 {
+    border-radius: 0px;
+  }
+  
+  /* Server */
+  .side_b4b3f6 .item__48dda,
+  .link_ddbb36,
+  .menu__088f7,
+  .wrapper__612a5,
+  .item__183e8,
+  .roleRow_dc2631,
+  .button__581d0,
+  .previewContainer__30793,
+  .colorPickerSwatch__343b4.custom__383ac,
+  .colorPickerSwatch__343b4.default__428e2,
+  .customColorPicker_bbc020,
+  .previewContainer__8cd30,
+  .memberRow_d581f4,
+  .memberRow_d581f4,
+  .tierHeaderWithoutCardBody_cf6d0f,
+  .copyInput_f549fd,
+  .descriptionBox_bdb07b,
+  .container__26dff,
+  .changelog__55624,
+  .safetyChecklist__4c74b,
+  .auditLog__9228d,
+  .container_cff83e,
+  .wrapper__57349,
+  .container__30a2e,
+  .fieldBackground__4007e,
+  .fieldBackground__4007e:hover:not(:focus),
+  .container__9c57c,
+  .wrapper__8a5dd,
+  .inviteSplash__0f1df,
+  .container-JhuCwn,
+  .header-1Uy0p6,
+  .item_b7fb7e,
+  .optionButtonWrapper_c86844,
+  .prompt__671aa,
+  .termsFieldBody_c56d5f,
+  .optionContainer__0233f,
+  .testimonialHeroContainer_a66dec,
+  .upsellPreview_a2ec8a,
+  .previewListItem__6ce7d,
+  .error_f5f3e1,
+  .developerPortalCtaWrapper_a92100,
+  .container__17b02,
+  .featureCard__769f1,
+  .tierHeaderUnlocked__960f7,
+  .settingCard-xZSDjS,
+  .prompt__1b100,
+  .messagesPopoutWrap__10dd1,
+  .messageGroupWrapper__1fce2,
+  .container_f93da8,
+  .container__9922f,
+  .container__353bc,
+  .attachedBars_c1606a,
+  .card-m7VgZ8,
+  .qualitySettingsContainer-2LjkfM,
+  .upsellBanner-1tVKtW,
+  .upsellContainer_df4d69,
+  .checklistContainer-12xGp5,
+  .card_bc6ee2,
+  .howItWorksContainer__025eb,
+  .guildPopout_df13cd,
+  .descriptionContainer-2ylKGk,
+  .messageAttachmentMediaMosaic__67262,
+  .role__9690d,
+  .cardContainerWithoutTopIndicator_a60d34,
+  .roleMessagePreview__242dc,
+  .noiseCancellationPopout__023ec,
+  .container_eb737e,
+  .profileCard__1d74b,
+  .messageContainer_cb3d47,
+  .channelTextArea__648e5,
+  .item__287de,
+  .jumpButton__6c38c,
+  .container-3GP6AV,
+  .stepContainer-SaPPyG,
+  .contentPreview-3fWiuC,
+  .jumpButton__309d6,
+  .buttonInner__865de,
+  .burstGlow__618a7,
+  .upsell__780f6,
+  .addReactButton__4342f,
+  .buttonInner__865de,
+  .channelContainer-3YAhb_,
+  .containerBackground__65bbe,
+  .container__17159,
+  .contentWrapper_eab878.isBurstReactionPicker_b9ca03,
+  .editCard__7d03f,
+  .editCard__7d03f:before,
+  .triggerMainContainer_ca82f6,
+  .keywordsTextArea_ae5cf2,
+  .collapseable_a59844:before,
+  .collapseable_a59844,
+  .textArea_f2223c,
+  .actionContainer_e638f2,
+  .content__3b07e,
+  .card-8UsK4b,
+  .simpleItemWrapper_c23fd0,
+  .container__84c26,
+  .mainCard__0ec2c,
+  .userCardInner_e36852,
+  .action__94060,
+  .row__4f559,
+  .container__7abe8,
+  .container__13b2a,
+  .mainTableContainer-1olPmq,
+  .css-19vtg9u-control,
+  .lastChannel__0a967.firstChannel_c06b53,
+  .rem_be1e7a.botTag__4211a,
+  .channelTextArea_c2094b .scrollableContainer_ff917f,
+  .popout__24e32,
+  .row__9e25f,
+  .container__56cd1,
+  .message_ff43e6,
+  .scrollableContainer_ff917f,
+  .spamBanner_b5e5bf,
+  .container__86c3c,
+  .upload_c98ecb,
+  .button_ef08e7,
+  .streamPreview__965fa,
+  .previewChannelRowContent__9054b,
+  .inviteContainer__4d80b,
+  .container__0018d,
+  .previewNotice__54645,
+  .productCard_ecfe85,
+  .container__2fb79,
+  .learnMoreTipContainer_c18bec,
+  .tab_cc2f20,
+  .chipletContainerInner_bfcb1e {
+    border-radius: var(--radius);
+  }
+  .layout_bb8e67 {
+    border-radius: 20px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+  }
+  .header__5e5a6,
+  .tierHeaderLocked__0ca2e,
+  .cardHeader_ca5ec0,
+  .header__8cacc,
+  .firstChannel_c06b53,
+  .container_e1958d,
+  .activityPanel_b73e7a,
+  .upsellContent_a40496,
+  .checklistHeader-3liG7E,
+  .container__26baa,
+  .modal_b38209,
+  .jumpToPresentBar__69174,
+  .disabledButtonWrapper_b04230,
+  .banner_f13f1e {
+    border-radius: var(--radius) var(--radius) 0px 0px;
+  }
+  .footer_e0b400,
+  .changeDetails_c0aa16,
+  .lastChannel-21yyB,
+  .tierBody_fd5f94C,
+  .upsellFooter__5106a,
+  .scroller__12676,
+  .lastChannel__0a967,
+  .threadSuggestionBar__717a3,
+  .uploadModal__6eb75 .footer_f06dbb,
+  .tooltipPremiumFooterContainer__0816a {
+    border-radius: 0px 0px var(--radius) var(--radius);
+  }
+  .headerClickable__334f7,
+  .callContainer__1477d {
+    border-radius: var(--radius) !important; /* Fix server log not rounded */
+  }
+  .notice__5fd4c {
+    border-radius: var(--radius);
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 5px;
+  }
+  .guildSidebar__74787,
+  .roundedRow_fe1ade td:first-child {
+    border-radius: var(--radius) 0px 0px var(--radius);
+  }
+  .roundedRow_fe1ade td:last-child {
+    border-radius: 0px var(--radius) var(--radius) 0px;
+  }
+  .newMessagesBar__8b272 {
+    border-radius: 0px 0px var(--radius) var(--radius) !important;
+  }
+  .formContainer-1zrOWf .title-1v5ZfI {
+    border-radius: 0px;
+  }
+  .controlButton__863c7 > svg > foreignObject {
+    mask: none;
+  }
+  .channelTextArea_c2094b {
+    background-color: unset;
+  }
+  
+  /* Slash Command */
+  .outerWrapper__99794,
+  .base__87e58,
+  .optionPill__618f2,
+  .autocomplete__2e602,
+  .root_a28985,
+  .container_b9efb5,
+  .select_fe2671,
+  .tooltip_e6800d {
+    border-radius: var(--radius);
+  }
+  .optionPillKey__0d1a4 {
+    border-radius: var(--radius) 0px 0px var(--radius);
+  }
+  .footer_e0b400 {
+    border-radius: 0px 0px var(--radius) var(--radius);
+  }
