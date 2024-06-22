@@ -2,16 +2,16 @@
  * DISCORD-Spotify Theme
  * @Rayhan/CherubicBoot785
  * @make discord looks like spotify's round edges
- * @version 1.0
- * FORKED FROM: (lupa)
+ * @version 1.1.1
+ * FORKED FROM: https://github.com/MarkChan0225/RoundedDiscord
  */
 
  :root {
     --radius: 16px; /* 16px */
   }
-/* Chat UI */
-.tutorialContainer_f9623d {
-    margin-top: 6px;
+  /* Chat UI */
+  .tutorialContainer_f9623d {
+    margin-top: -2px; /* INI MARGIN SERVER LIST RAY, 6px*/
   }
   .resizeHandle_d1c246 {
     width: 0px;
@@ -28,27 +28,27 @@
   .container_cac32e,
   .container_d1c246 {
     border-radius: var(--radius);
-    margin-top: 10px;
+    margin-top: 0px; /* INI MARGIN CHAT RAY, 10px*/
     margin-bottom: 10px;
     margin-right: 10px;
     margin-left: 5px;
   }
-  .sidebar_a4d4d9,
+  .sidebar_a4d4d9, /* SERVER NAME RAY*/
   .container_d1c246 {
     border-radius: var(--radius) !important; /* Fix sidebar not rounded on windows platform */
-    margin-top: 10px;
+    margin-top: 0px; /*10px*/
     margin-bottom: 10px;
-    margin-right: 5px !important;
+    margin-right: 2px !important; /* 5px*/
     margin-left: 5px;
   }
-  .wrapper_fea3ef {
+  /* .wrapper_fea3ef {
     border-radius: var(--radius);
     margin-top: 10px;
     margin-bottom: 10px;
     margin-right: 5px;
     margin-left: 10px;
     background-color: var(--background-secondary);
-  }
+  } INI SERVER LIST RAY*/
   .channelChatWrapper_d880dc {
     border-radius: var(--radius);
     margin-top: -10px;
